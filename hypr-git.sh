@@ -56,7 +56,7 @@ packages=(
     waybar rofi waypaper-git wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr
     archlinux-xdg-menu xdg-user-dirs xdg-user-dirs-gtk sddm nwg-look wl-clipboard clipman xorg polkit-gnome swww swaync swayidle
     network-manager-applet adw-gtk-theme alsa-utils pavucontrol ttf-ms-fonts grimblast-git swaylock-effects ffmpeg ffmpegthumbs
-    ffmpegthumbnailer breeze breeze5 breeze-icons breeze-gtk qt5ct-kde qt6ct-kde wlogout satty cpio pamixer vulkan-tools imagemagick
+    ffmpegthumbnailer breeze breeze5 breeze-icons breeze-gtk qt5ct-kde qt6ct-kde wlogout satty cpio cmake pamixer vulkan-tools imagemagick
     bluez bluez-hid2hci bluez-tools bluez-utils bluez-deprecated-tools blueman 
 )
 

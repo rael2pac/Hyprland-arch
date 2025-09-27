@@ -72,7 +72,7 @@ yay -S --noconfirm ttf-font-awesome otf-font-awesome noto-fonts noto-fonts-emoji
 echo "Instalando filesystem"
 pause
 fs_packages=(
-    ntfs-3g exfat-utils dosfstools btrfs-progs xfsprogs jfsutils f2fs-tools reiserfsprogs nilfs-utils udftools e2fsprogs
+    ntfs-3g exfatprogs dosfstools btrfs-progs xfsprogs jfsutils f2fs-tools udftools e2fsprogs
 )
 
 # Instalar pacotes de sistemas de arquivos com retry
@@ -83,7 +83,6 @@ done
 echo "Instalando wine e outros complementos"
 pause
 sudo pacman -S --noconfirm --needed wine  wine-gecko linux-lts-headers linux-zen-headers
-retry_install protonup-qt-bin
 
 echo "Deixando o Dolphin como gerenciador padrão"
 pause

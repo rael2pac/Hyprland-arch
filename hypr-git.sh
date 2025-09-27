@@ -54,7 +54,7 @@ packages=(
     hyprland dolphin dolphin-plugins kde-cli-tools kio unrar unrar-free unzip pacman-contrib kate oh-my-posh-bin cmake cmake-extras fish
     code gnome-calculator papers loupe orchis-theme btop gnome-disk-utility gnome-text-editor gnome-calendar ark ksnip kitty
     waybar rofi waypaper-git wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr
-    archlinux-xdg-menu xdg-user-dirs xdg-user-dirs-gtk sddm nwg-look wl-clipboard xorg polkit-gnome swww swaync swayidle simple-sddm-theme-2-git
+    archlinux-xdg-menu xdg-user-dirs xdg-user-dirs-gtk sddm nwg-look wl-clipboard xorg polkit-gnome swww swaync swayidle 
     network-manager-applet adw-gtk-theme alsa-utils pavucontrol ttf-ms-fonts grimblast-git swaylock-effects ffmpeg ffmpegthumbs
     ffmpegthumbnailer breeze breeze5 breeze-icons breeze-gtk qt5ct-kde qt6ct-kde wlogout satty cpio pamixer vulkan-tools imagemagick
     bluez bluez-hid2hci bluez-tools bluez-utils bluez-deprecated-tools blueman 
@@ -92,6 +92,14 @@ xdg-mime default org.kde.dolphin.desktop inode/directory
 echo "Habilitando o SDDM no systemd"
 pause
 sudo systemctl enable sddm.service
+
+# Baixar Wallpapers.zip
+if [ -f "$SCRIPT_DIR/simple-sddm2-arch.sh" ]; then
+    echo "Executando simple-sddm2-arch.sh para baixar Wallpapers.zip..."
+    bash "$SCRIPT_DIR/simple-sddm2-arch.sh"
+else
+    echo "simple-sddm2-arch.sh não encontrado em $SCRIPT_DIR"
+fi
 
 # Baixar Wallpapers.zip
 if [ -f "$SCRIPT_DIR/wallpaper-arch.sh" ]; then

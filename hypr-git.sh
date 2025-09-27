@@ -72,7 +72,7 @@ yay -S --noconfirm ttf-font-awesome otf-font-awesome noto-fonts noto-fonts-emoji
 echo "Instalando filesystem"
 pause
 fs_packages=(
-    ntfs-3g exfatprogs dosfstools btrfs-progs xfsprogs jfsutils f2fs-tools udftools e2fsprogs
+    ntfs-3g exfatprogs dosfstools btrfs-progs xfsprogs jfsutils f2fs-tools udftools e2fsprogs gvfs
 )
 
 # Instalar pacotes de sistemas de arquivos com retry

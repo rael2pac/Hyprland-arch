@@ -51,7 +51,7 @@ echo "Iniciando a instalação do Hyprland e pacotes - By Rael"
 pause
 
 packages=(
-    hyprland dolphin dolphin-plugins kde-cli-tools kio unrar unrar-free unzip pacman-contrib kate oh-my-posh-bin cmake cmake-extras fish
+    hyprland dolphin dolphin-plugins kde-cli-tools kio unrar unrar-free unzip pacman-contrib kate oh-my-posh-bin cmake cmake-extras fish bc
     code gnome-calculator papers loupe orchis-theme btop gnome-disk-utility gnome-text-editor gnome-calendar ark ksnip kitty firefox vlc vlc-plugins-all mpv
     waybar rofi waypaper-git wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal-wlr
     archlinux-xdg-menu xdg-user-dirs xdg-user-dirs-gtk sddm nwg-look wl-clipboard xorg polkit-gnome swww swaync swayidle 

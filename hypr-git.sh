@@ -118,17 +118,15 @@ else
     echo "config.zip não encontrado no diretório do script ($SCRIPT_DIR)."
 fi
 
-# Verificando e extraindo Wallpapers.zip
-echo "Verificando e extraindo Wallpapers.zip para ~/Imagens..."
+# ADICIONANDO OS COMANDOS PARA CRIAR/ATUALIZAR PASTAS DE USUÁRIO
+echo "Criando/Atualizando diretórios de usuário com xdg-user-dirs"
 pause
-if [ -f "$SCRIPT_DIR/Wallpapers.zip" ]; then
-    unzip -o "$SCRIPT_DIR/Wallpapers.zip" -d "$HOME/Imagens"
-    echo "Arquivo Wallpapers.zip extraído para ~/Imagens com sucesso."
-else
-    echo "Wallpapers.zip não encontrado no diretório do script ($SCRIPT_DIR)."
-fi
+# Cria diretórios como Documentos, Downloads, etc., caso não existam
+xdg-user-dirs-update
+# Garante que os diretórios criados sejam reconhecidos pela interface gráfica (Gtk)
+xdg-user-dirs-gtk-update
 
-echo "Atualisando suporte a plugins"
+echo "Atualizando suporte a plugins"
 pause
 hyprpm update
 

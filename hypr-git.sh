@@ -100,12 +100,12 @@ else
     echo "simple-sddm2-arch.sh não encontrado em $SCRIPT_DIR"
 fi
 
-# Baixar Wallpapers.zip
-if [ -f "$SCRIPT_DIR/wallpaper-arch.sh" ]; then
-    echo "Executando wallpaper-arch.sh para baixar Wallpapers.zip..."
-    bash "$SCRIPT_DIR/wallpaper-arch.sh"
+#Extraindo Wallpapers.zip...
+if [ -f "$SCRIPT_DIR/Wallpapers.zip" ]; then
+    unzip -o "$SCRIPT_DIR/Wallpapers.zip" -d "$HOME/Imagens"
+    echo "Arquivo Wallpapers.zip extraído para ~/Imagens com sucesso."
 else
-    echo "wallpaper-arch.sh não encontrado em $SCRIPT_DIR"
+    echo "Wallpapers.zip não encontrado."
 fi
 
 # Verificando e extraindo config.zip

@@ -126,10 +126,6 @@ xdg-user-dirs-update
 # Garante que os diretórios criados sejam reconhecidos pela interface gráfica (Gtk)
 xdg-user-dirs-gtk-update
 
-echo "Atualizando suporte a plugins"
-pause
-hyprpm update
-
 echo "Hyprland e pacotes instalados com sucesso."
 pause
 

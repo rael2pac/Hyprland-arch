@@ -102,10 +102,10 @@ fi
 
 # Download Wallpapers.zip
     # -------------------------------------------------------------
-    if [ -f "wallpaper-arch.sh" ]; then
+    if [ -f "$SCRIPT_DIR/wallpaper-arch.sh" ]; then
         echo "Executando wallpaper-arch.sh para baixar Wallpapers.zip..."
         # Executa o script de download
-        bash "wallpaper-arch.sh"
+        bash "$SCRIPT_DIR/wallpaper-arch.sh"
     else
         echo "wallpaper-arch.sh não encontrado em $SCRIPT_DIR. Pulando download."
     fi

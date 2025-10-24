@@ -92,7 +92,7 @@ echo "Habilitando o SDDM no systemd"
 pause
 sudo systemctl enable sddm.service
 
-# Baixar Wallpapers.zip
+# Instalando tema SDDM 
 if [ -f "$SCRIPT_DIR/simple-sddm2-arch.sh" ]; then
     echo "Executando simple-sddm2-arch.sh para baixar Wallpapers.zip..."
     bash "$SCRIPT_DIR/simple-sddm2-arch.sh"
@@ -100,7 +100,17 @@ else
     echo "simple-sddm2-arch.sh não encontrado em $SCRIPT_DIR"
 fi
 
-#Extraindo Wallpapers.zip...
+# Download Wallpapers.zip
+    # -------------------------------------------------------------
+    if [ -f "wallpaper-arch.sh" ]; then
+        echo "Executando wallpaper-arch.sh para baixar Wallpapers.zip..."
+        # Executa o script de download
+        bash "wallpaper-arch.sh"
+    else
+        echo "wallpaper-arch.sh não encontrado em $SCRIPT_DIR. Pulando download."
+    fi
+
+#Verificando e extraindo Wallpapers.zip...
 if [ -f "$SCRIPT_DIR/Wallpapers.zip" ]; then
     unzip -o "$SCRIPT_DIR/Wallpapers.zip" -d "$HOME/Imagens"
     echo "Arquivo Wallpapers.zip extraído para ~/Imagens com sucesso."

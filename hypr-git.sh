@@ -88,11 +88,16 @@ echo "Deixando o Dolphin como gerenciador padrão"
 pause
 xdg-mime default org.kde.dolphin.desktop inode/directory
 
+echo "Habilitando o serviço bluetooth no systemd"
+pause
+sudo systemctl enable bluetooth.service
+
 echo "Habilitando o SDDM no systemd"
 pause
 sudo systemctl enable sddm.service
 
 # Instalando tema SDDM 
+
 if [ -f "$SCRIPT_DIR/simple-sddm2-arch.sh" ]; then
     echo "Executando simple-sddm2-arch.sh para baixar Wallpapers.zip..."
     bash "$SCRIPT_DIR/simple-sddm2-arch.sh"
@@ -101,7 +106,7 @@ else
 fi
 
 # Download Wallpapers.zip
-    # -------------------------------------------------------------
+    
     if [ -f "$SCRIPT_DIR/wallpaper-arch.sh" ]; then
         echo "Executando wallpaper-arch.sh para baixar Wallpapers.zip..."
         # Executa o script de download

@@ -84,7 +84,7 @@ Erros e sugestões podem ser colocadas em [Issues](https://github.com/rael2pac/H
 ---------    
 ## Licença
 
-[GNU-GPL](https://github.com/rbgameslinux/pos_install_hyprland/blame/main/LICENSE)
+[GNU-GPL](https://github.com/rael2pac/Hyprland-arch/blob/main//LICENSE)
 
 
 

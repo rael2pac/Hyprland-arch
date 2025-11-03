@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/logo_rael-git.png" width="650" />
+  <img src="https://github.com/rael2pac/Hyprland-arch/blob/main/assets/logo_rael-git.png" width="650" />
 </p>  
   &nbsp  
 
@@ -66,19 +66,19 @@ Erros e sugestões podem ser colocadas em [Issues](https://github.com/rael2pac/H
 ## 📢 Capturas
 
 --------
-![image](/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/rael001.jpg)
+![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael001.jpg)
 
 -----
-![image](/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/rael002.jpg)
+![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael002.jpg)
 
 ----------
-![image](/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/rael003.jpg)
+![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael003.jpg)
 
 -----
-![image](/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/rael004.jpg)
+![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael004.jpg)
 
 -------
-![image](/mnt/Rodrigo003/Hyprland_rb/Rael_git/Hyprland-arch/assets/rael005.jpg)
+![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael005.jpg)
 
 
 ---------    

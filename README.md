@@ -27,13 +27,16 @@ sudo nano /etc/makepkg.conf
 
 (procurar a linha)
 
-#MAKEFLAGS="-j2" tirar o comentario (#) do inicio dessa linha e aonde está j2, mudar p/MAKEFLAGS="-j$(nproc)".
+#MAKEFLAGS="-j2" tirar o comentario (#) do inicio dessa linha,
+ e aonde está j2, mudar p/MAKEFLAGS="-j$(nproc)".
 
 sudo nano /etc/pacman.conf 
 
 Descomentar a linha #color deixando apena color
 em # Misc options colocar no final da linha ILoveCandy 
- 
+
+exit
+
 reboot
 
 Após reiniciar faça login

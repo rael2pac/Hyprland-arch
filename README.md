@@ -55,11 +55,13 @@ chmod +x hypr-git.sh
 # Informações
 
 
-`(Assista o video explicativo) link:` em breve
+## Assista o video explicativo:
 
-<!-- video 1 [utilização do script](https://youtu.be/6KrKxNsAdYo) -->
+ video 1 [Projeto](https://www.youtube.com/watch?v=7RMm95WwOgo)
 
-<!-- video 2 [utilização do script](https://youtu.be/ezOm_47syUM^) -->
+ video 2 [Instalação](https://www.youtube.com/watch?v=sBcflXohl9k)
+
+  video 2 [Dicas](https://www.youtube.com/watch?v=gEqxdm7WG-A)
 
 Video tutorial pode ser encontrado no [canal Rbgames](https://www.youtube.com/@RBGameslinux) 
 

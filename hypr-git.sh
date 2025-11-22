@@ -57,7 +57,7 @@ packages=(
     archlinux-xdg-menu xdg-user-dirs xdg-user-dirs-gtk sddm nwg-displays nwg-look wl-clipboard xorg polkit-gnome swww swaync swayidle wtype wiremix
     network-manager-applet adw-gtk-theme alsa-utils pavucontrol ttf-ms-fonts grimblast-git swaylock-effects ffmpeg ffmpegthumbs
     ffmpegthumbnailer breeze breeze5 breeze-icons breeze-gtk qt5ct-kde qt6ct-kde wlogout satty cpio pamixer vulkan-tools imagemagick
-    bluez bluez-hid2hci bluez-tools bluez-utils bluez-deprecated-tools blueman 
+    bluez bluez-hid2hci bluez-tools bluez-utils bluez-deprecated-tools blueman udiskie
 )
 
 # Instalar pacotes com retry

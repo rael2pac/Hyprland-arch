@@ -2,9 +2,10 @@
 
 
 <p align="center">
-  <img src="https://github.com/rael2pac/Hyprland-arch/blob/main/assets/logo_rael-git.png" width="650" />
+  <img src="https://github.com/user-attachments/assets/50327725-01ce-41d3-8c34-9489849a7f9e" /> width="650" />
 </p>  
   &nbsp  
+
 
 # Hyprdots para instalação com base do Archlinux.  
 
@@ -71,19 +72,25 @@ Erros e sugestões podem ser colocadas em [Issues](https://github.com/rael2pac/H
 ## 📢 Capturas
 
 --------
-![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael001.jpg)
+![rael001](https://github.com/user-attachments/assets/15a26f1c-16b6-4c5b-86b3-e50bb0528b9f)
+
 
 -----
-![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael002.jpg)
+![rael002](https://github.com/user-attachments/assets/76bc7347-4f9b-4712-a358-cd2e8be08a03)
+
+
 
 ----------
-![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael003.jpg)
+![rael003](https://github.com/user-attachments/assets/d2bfa7f5-488a-4b06-8b62-acc4606e78eb)
+
 
 -----
-![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael004.jpg)
+![rael004](https://github.com/user-attachments/assets/6bb5fe93-0bfb-474e-b579-1ffa88f7e8e8)
+
 
 -------
-![image](https://github.com/rael2pac/Hyprland-arch/blob/main/assets/rael005.jpg)
+![rael005](https://github.com/user-attachments/assets/2803d86b-3d36-4f65-bd5c-64deef4b799f)
+
 
 
 ---------    

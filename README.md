@@ -2,10 +2,9 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/50327725-01ce-41d3-8c34-9489849a7f9e" /> width="650" />
+  <img src="https://github.com/user-attachments/assets/1c6ba649-7445-4d66-bd33-bfb989de6587" /> width="650" />
 </p>  
   &nbsp  
-
 
 # Hyprdots para instalação com base do Archlinux.  
 
@@ -72,26 +71,19 @@ Erros e sugestões podem ser colocadas em [Issues](https://github.com/rael2pac/H
 ## 📢 Capturas
 
 --------
-![rael001](https://github.com/user-attachments/assets/15a26f1c-16b6-4c5b-86b3-e50bb0528b9f)
-
+![rael001](https://github.com/user-attachments/assets/dfd0f3ff-89d6-4d75-a10a-95b110594cb3)
 
 -----
-![rael002](https://github.com/user-attachments/assets/76bc7347-4f9b-4712-a358-cd2e8be08a03)
-
-
+![rael002](https://github.com/user-attachments/assets/a963e223-7f7d-4d35-bf88-05abac296b15)
 
 ----------
-![rael003](https://github.com/user-attachments/assets/d2bfa7f5-488a-4b06-8b62-acc4606e78eb)
-
+![rael003](https://github.com/user-attachments/assets/57f30fc7-01e5-457b-b568-73528d86511a)
 
 -----
-![rael004](https://github.com/user-attachments/assets/6bb5fe93-0bfb-474e-b579-1ffa88f7e8e8)
-
+![rael004](https://github.com/user-attachments/assets/23415686-793b-4071-99d5-c42c4c783a1f)
 
 -------
-![rael005](https://github.com/user-attachments/assets/2803d86b-3d36-4f65-bd5c-64deef4b799f)
-
-
+![rael005](https://github.com/user-attachments/assets/72ed5235-48e5-4639-abbb-9772d041cd8d)
 
 ---------    
 ## Licença

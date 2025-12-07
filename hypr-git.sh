@@ -67,7 +67,7 @@ done
 
 echo "Instalando pacotes de fontes"
 pause
-yay -S --noconfirm ttf-font-awesome otf-font-awesome noto-fonts noto-fonts-emoji noto-fonts-extra ttf-firacode-nerd ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts ttf-fantasque-nerd ttf-victor-mono ttf-droid
+yay -S --noconfirm ttf-meslo-nerd ttf-font-awesome otf-font-awesome noto-fonts noto-fonts-emoji noto-fonts-extra ttf-firacode-nerd ttf-jetbrains-mono-nerd adobe-source-code-pro-fonts ttf-fantasque-nerd ttf-victor-mono ttf-droid
 
 echo "Instalando filesystem"
 pause
